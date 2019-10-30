@@ -96,8 +96,8 @@
            // other parameters namely mood, category and identity should be supplied!
            var data = {
                         message : input.value.trim(),
-                        mood: null
-                        category: null
+                        mood: null,
+                        category: null,
                         identity: null
            }
            socket.emit("message", { message: data});
